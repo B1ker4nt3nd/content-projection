@@ -1,0 +1,26 @@
+<div class="flex items-center justify-center">
+  <ng-template #footerTemplate>
+    <div class="custom-class">
+      <button
+        class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Footer Tab Button 1
+      </button>
+      <button
+        class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Default Tab Button 2
+      </button>
+    </div>
+  </ng-template>
+  <app-frame [footerTemplate]="footerTemplate">
+    <h1 title class="text-3xl font-bold underline">Title</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptates, quod, quia, quae voluptatibus voluptatem quidem voluptatum
+      quibusdam quos natus quas. Quisquam, quae. Quisquam voluptates, quod,
+      quia, quae voluptatibus voluptatem quidem voluptatum quibusdam quos natus
+      quas. Quisquam, quae.
+    </p>
+  </app-frame>
+</div>
